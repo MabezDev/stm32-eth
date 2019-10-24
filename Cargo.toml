@@ -25,7 +25,7 @@ log = { version = "0.4", optional = true }
 
 [dependencies.stm32f2xx-hal]
 git = "https://github.com/mabezdev/stm32f2xx-hal"
-rev = "30ff427c9da25cf3a308cbc2f1484ee8975092f1"
+rev = "cd8bbf9ecaa5204ef327fddbef39dd79af1c7061"
 # path = "../../hal/stm32f2xx-hal"
 features = ["rt"]
 version = "0.1.0"
