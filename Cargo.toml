@@ -24,9 +24,9 @@ smoltcp = { version = "0.5.0", git = "https://github.com/m-labs/smoltcp", rev = 
 log = { version = "0.4", optional = true }
 
 [dependencies.stm32f2xx-hal]
-git = "https://github.com/mabezdev/stm32f2xx-hal"
-rev = "cd8bbf9ecaa5204ef327fddbef39dd79af1c7061"
-# path = "../../hal/stm32f2xx-hal"
+# git = "https://github.com/mabezdev/stm32f2xx-hal"
+# rev = "cd8bbf9ecaa5204ef327fddbef39dd79af1c7061"
+path = "../stm32f2xx-hal"
 features = ["rt"]
 version = "0.1.0"
 
