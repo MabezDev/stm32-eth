@@ -50,7 +50,3 @@ name = "pktgen"
 [[example]]
 name = "ip"
 required-features = ["smoltcp-phy"]
-
-[profile.release]
-debug = 2
-lto = true
